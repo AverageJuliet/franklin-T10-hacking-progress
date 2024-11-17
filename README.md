@@ -13,3 +13,7 @@ Tried for a few hours to crack the password using hashcat, dead end.
 
 
 I tried to change the password hash in the system dump and tried flashing it. this sadly resulted in a perma brick. (it refuse to accept both a T10 and a T9 dump)
+
+RIP...
+
+random T10 10/31/24-11/17/24 your death wasn't deserved. 
