@@ -7,4 +7,6 @@ Upon giving the device power it initially didn't do all that much aside from som
 
 But I was hit with a roadblock: I didn't know the root password. And as such the project was later put on hold until Rich Hathaway over on the wirelessjoint forms provided me with an entire firmware dump, and with that begins attempting to find it using the `/etc/passwd` file
 
+Tried for a few hours to crack the password using hashcat, dead end.
+
 
