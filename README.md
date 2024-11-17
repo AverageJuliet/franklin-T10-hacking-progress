@@ -12,7 +12,7 @@ But I was hit with a roadblock: I didn't know the root password. And as such the
 Tried for a few hours to crack the password using hashcat, dead end.
 
 
-I tried to change the password hash in the system dump and tried flashing it. this sadly resulted in a perma brick. (it refuse to accept both a T10 and a T9 sys image)
+I tried to change the password hash in the system dump and tried flashing it. this sadly resulted in a perma brick. (it refused to accept both a T10 and a T9 sys image)
 
 RIP...
 
