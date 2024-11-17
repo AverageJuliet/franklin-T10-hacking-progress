@@ -1,0 +1,1308 @@
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.BF.3.1.2-00094
+S - IMAGE_VARIANT_STRING=LAATANAZA
+S - OEM_IMAGE_VERSION_STRING=Build9x15
+S - Boot Config, 0x000002e1
+B -      1216 - PBL, Start
+B -      3723 - bootable_media_detect_entry, Start
+B -      4444 - bootable_media_detect_success, Start
+B -      4448 - elf_loader_entry, Start
+B -      6692 - auth_hash_seg_entry, Start
+B -      6913 - auth_hash_seg_exit, Start
+B -     59763 - elf_segs_hash_verify_entry, Start
+B -    107320 - PBL, End
+B -     99613 - SBL1, Start
+B -    149633 - pm_device_init, Start
+B -    167079 - PM_SET_VAL:Skip
+D -     15707 - pm_device_init, Delta
+B -    167750 - boot_config_data_table_init, Start
+D -    174917 - boot_config_data_table_init, Delta - (420 Bytes)
+B -    346571 - CDT version:3,Platform ID:8,Major ID:1,Minor ID:0,Subtype:0
+B -    352732 - sbl1_ddr_set_params, Start
+B -    356575 - Pre_DDR_clock_init, Start
+D -       213 - Pre_DDR_clock_init, Delta
+D -         0 - sbl1_ddr_set_params, Delta
+B -    369263 - pm_driver_init, Start
+D -      4544 - pm_driver_init, Delta
+B -    375607 - cpr_init, Start
+D -       122 - cpr_init, Delta
+B -    380213 - cpr_cx_mx_apc_vol_update, Start
+D -        61 - cpr_cx_mx_apc_vol_update, Delta
+B -    395036 - sbl1_qhsusb_al_do_fast_enum, Start
+D -         0 - sbl1_qhsusb_al_do_fast_enum, Delta
+B -    398025 - clock_init, Start
+D -       152 - clock_init, Delta
+B -    403820 - boot_flash_init, Start
+D -     27328 - boot_flash_init, Delta
+B -    473573 - Image Load, Start
+D -     71035 - QSEE Image Loaded, Delta - (477344 Bytes)
+D -       213 - boot_pm_post_tz_device_init, Delta
+B -    549030 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    556320 - Devcfg Partition does not exist
+B -    560529 - Image Load, Start
+D -       457 - SEC Image Loaded, Delta - (2048 Bytes)
+B -    568459 - Image Load, Start
+D -     29951 - RPM Image Loaded, Delta - (152720 Bytes)
+B -    598989 - Image Load, Start
+D -     70913 - APPSBL Image Loaded, Delta - (386444 Bytes)
+B -    669963 - QSEE Execution, Start
+D -       213 - QSEE Execution, Delta
+B -    675636 - SBL1, End
+D -    578402 - SBL1, Delta
+S - Throughput, 3000 KB/s  (1019040 Bytes,  312252 us)
+S - DDR Frequency, 240 MHz
+Android Bootloader - UART_DM Initialized!!!
+[0] welcome to lk
+
+[10] platform_init()
+[10] target_init()
+[10] smem ptable found: ver: 4 len: 15
+[10] Starting PWR key
+[10] pon_reason >> (32)
+[20] MPP2 CH = 5353608
+ [20] pm8x41_get_is_cold_boot: cold boot
+[20] BG_Key Routine
+[30] chargerIC_read_register: reg:0x20, r_val:0xff
+[30] chargerIC_read_register: reg:0x21, r_val:0xff
+[30] charger_77818_initialization: start initialize
+[110] charger_77818_initialization: Unlock model
+[110] charger_77818_initialization: Write custom para gaugeIC
+[130] charger_77818_initialization: verify about VFSOC0 (63D7)
+[180] charger_77818_initialization: JEITA config gaugeIC
+[210] charger_77818_initialization: Lock model
+[210] charger_77818_initialization: extra config register gaugeIC
+[540] charger_77818_initialization: Verify loading model data gaugeIC
+[540] charger_77818_initialization: End of Setting Modeldata & Customdata
+[560] charger_77818_initialization: PON RESET OFF STATUS
+[560] charger_77818_initialization: Finished gaugeIC
+[560] MAX77818 initialization Ok
+[570] INIT GPIO FOR LCD
+[570] SET DEFAULT SET FOR GPIO
+[570] RESET LCD
+[590] SET DEFAULT PARAMETER
+[1480] Line state = 0
+[1490] Set SDP charging
+[1490] Has limit current(500mA)
+
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.BF.3.1.2-00094
+S - IMAGE_VARIANT_STRING=LAATANAZA
+S - OEM_IMAGE_VERSION_STRING=Build9x15
+S - Boot Config, 0x000002e1
+B -      1216 - PBL, Start
+B -      3723 - bootable_media_detect_entry, Start
+B -      4434 - bootable_media_detect_success, Start
+B -      4438 - elf_loader_entry, Start
+B -      6682 - auth_hash_seg_entry, Start
+B -      6903 - auth_hash_seg_exit, Start
+B -     59752 - elf_segs_hash_verify_entry, Start
+B -    107310 - PBL, End
+B -     99674 - SBL1, Start
+B -    149694 - pm_device_init, Start
+B -    167170 - PM_SET_VAL:Skip
+D -     15738 - pm_device_init, Delta
+B -    167841 - boot_config_data_table_init, Start
+D -    174917 - boot_config_data_table_init, Delta - (420 Bytes)
+B -    346663 - CDT version:3,Platform ID:8,Major ID:1,Minor ID:0,Subtype:0
+B -    352824 - sbl1_ddr_set_params, Start
+B -    356667 - Pre_DDR_clock_init, Start
+D -       244 - Pre_DDR_clock_init, Delta
+D -         0 - sbl1_ddr_set_params, Delta
+B -    369416 - pm_driver_init, Start
+D -      4544 - pm_driver_init, Delta
+B -    375729 - cpr_init, Start
+D -        91 - cpr_init, Delta
+B -    380243 - cpr_cx_mx_apc_vol_update, Start
+D -        91 - cpr_cx_mx_apc_vol_update, Delta
+B -    395188 - sbl1_qhsusb_al_do_fast_enum, Start
+D -         0 - sbl1_qhsusb_al_do_fast_enum, Delta
+B -    398147 - clock_init, Start
+D -       152 - clock_init, Delta
+B -    403942 - boot_flash_init, Start
+D -     27328 - boot_flash_init, Delta
+B -    473787 - Image Load, Start
+D -     71034 - QSEE Image Loaded, Delta - (477344 Bytes)
+D -       183 - boot_pm_post_tz_device_init, Delta
+B -    549244 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    556564 - Devcfg Partition does not exist
+B -    560742 - Image Load, Start
+D -       457 - SEC Image Loaded, Delta - (2048 Bytes)
+B -    568672 - Image Load, Start
+D -     29951 - RPM Image Loaded, Delta - (152720 Bytes)
+B -    599203 - Image Load, Start
+D -     70943 - APPSBL Image Loaded, Delta - (386444 Bytes)
+B -    670207 - QSEE Execution, Start
+D -       183 - QSEE Execution, Delta
+B -    675880 - SBL1, End
+D -    578554 - SBL1, Delta
+S - Throughput, 3000 KB/s  (1019040 Bytes,  312160 us)
+S - DDR Frequency, 240 MHz
+Android Bootloader - UART_DM Initialized!!!
+[0] welcome to lk
+
+[10] platform_init()
+[10] target_init()
+[10] smem ptable found: ver: 4 len: 15
+[10] Starting PWR key
+[10] pon_reason >> (32)
+[20] MPP2 CH = 5360370
+ [20] pm8x41_get_is_cold_boot: cold boot
+[20] BG_Key Routine
+[30] chargerIC_read_register: reg:0x20, r_val:0xff
+[30] chargerIC_read_register: reg:0x21, r_val:0xff
+[30] charger_77818_initialization: start initialize
+[110] charger_77818_initialization: Unlock model
+[110] charger_77818_initialization: Write custom para gaugeIC
+[130] charger_77818_initialization: verify about VFSOC0 (7131)
+[180] charger_77818_initialization: JEITA config gaugeIC
+[210] charger_77818_initialization: Lock model
+[210] charger_77818_initialization: extra config register gaugeIC
+[420] charger_77818_initialization: Verify loading model data gaugeIC
+[420] charger_77818_initialization: End of Setting Modeldata & Customdata
+[430] charger_77818_initialization: PON RESET OFF STATUS
+[440] charger_77818_initialization: Finished gaugeIC
+[440] MAX77818 initialization Ok
+[450] INIT GPIO FOR LCD
+[450] SET DEFAULT SET FOR GPIO
+[450] RESET LCD
+[470] SET DEFAULT PARAMETER
+[1360] Line state = 0
+[1370] Set SDP charging
+[1370] Has limit current(500mA)
+[1370] PWR-KEY in BG
+[2950] PWR-KEY in BG
+[4520] PWR-KEY in BG
+[4520] Rebooting reason
+[4520] Rebooting default PMIC v1
+
+Format: Log Type - Time(microsec) - Message - Optional Info
+Log Type: B - Since Boot(Power On Reset),  D - Delta,  S - Statistic
+S - QC_IMAGE_VERSION_STRING=BOOT.BF.3.1.2-00094
+S - IMAGE_VARIANT_STRING=LAATANAZA
+S - OEM_IMAGE_VERSION_STRING=Build9x15
+S - Boot Config, 0x000002e1
+B -      1216 - PBL, Start
+B -      3723 - bootable_media_detect_entry, Start
+B -      4428 - bootable_media_detect_success, Start
+B -      4432 - elf_loader_entry, Start
+B -      6675 - auth_hash_seg_entry, Start
+B -      6897 - auth_hash_seg_exit, Start
+B -     59755 - elf_segs_hash_verify_entry, Start
+B -    107314 - PBL, End
+B -    114070 - SBL1, Start
+B -    171288 - pm_device_init, Start
+B -    190991 - PM_SET_VAL:Skip
+D -     17598 - pm_device_init, Delta
+B -    191662 - boot_config_data_table_init, Start
+D -    174948 - boot_config_data_table_init, Delta - (420 Bytes)
+B -    370483 - CDT version:3,Platform ID:8,Major ID:1,Minor ID:0,Subtype:0
+B -    376675 - sbl1_ddr_set_params, Start
+B -    380487 - Pre_DDR_clock_init, Start
+D -       213 - Pre_DDR_clock_init, Delta
+D -         0 - sbl1_ddr_set_params, Delta
+B -    393236 - pm_driver_init, Start
+D -      4544 - pm_driver_init, Delta
+B -    399550 - cpr_init, Start
+D -        91 - cpr_init, Delta
+B -    404064 - cpr_cx_mx_apc_vol_update, Start
+D -        61 - cpr_cx_mx_apc_vol_update, Delta
+B -    419009 - sbl1_qhsusb_al_do_fast_enum, Start
+D -         0 - sbl1_qhsusb_al_do_fast_enum, Delta
+B -    421967 - clock_init, Start
+D -       152 - clock_init, Delta
+B -    427762 - boot_flash_init, Start
+D -     27328 - boot_flash_init, Delta
+B -    497668 - Image Load, Start
+D -     71035 - QSEE Image Loaded, Delta - (477344 Bytes)
+D -       183 - boot_pm_post_tz_device_init, Delta
+B -    573125 - sbl1_efs_handle_cookies, Start
+D -         0 - sbl1_efs_handle_cookies, Delta
+B -    580445 - Devcfg Partition does not exist
+B -    584624 - Image Load, Start
+D -       457 - SEC Image Loaded, Delta - (2048 Bytes)
+B -    592554 - Image Load, Start
+D -     29951 - RPM Image Loaded, Delta - (152720 Bytes)
+B -    623084 - Image Load, Start
+D -     70913 - APPSBL Image Loaded, Delta - (386444 Bytes)
+B -    694058 - QSEE Execution, Start
+D -       183 - QSEE Execution, Delta
+B -    699731 - SBL1, End
+D -    588009 - SBL1, Delta
+S - Throughput, 3000 KB/s  (1019040 Bytes,  312253 us)
+S - DDR Frequency, 240 MHz
+Android Bootloader - UART_DM Initialized!!!
+[0] welcome to lk
+
+[10] platform_init()
+[10] target_init()
+[10] smem ptable found: ver: 4 len: 15
+[10] Starting PWR key
+[10] pon_reason >> (32)
+[20] MPP2 CH = 5357430
+ [20] pm8x41_get_is_cold_boot: Warm boot
+[20] INIT GPIO FOR LCD
+[30] SET DEFAULT SET FOR GPIO
+[30] RESET LCD
+[50] SET DEFAULT PARAMETER
+[50] DRAW WELCOME
+[120] ERROR: No devinfo partition found
+[120] Neither 'config' nor 'frp' partition found
+[130] Loading (boot) image (6035456): start
+[940] Loading (boot) image (6035456): done
+[940] Authenticating boot image (6035456): start
+[1010] Authenticating boot image: done return value = 1
+[1060] DTB Total entry: 39, DTB version: 3
+[1060] Using DTB entry 0x00000129/00010000/0x0000001f/0 for device 0x00000129/00010000/0x00010008/0
+[1070] boot_into_recovery draw
+[1070] cmdline: noinitrd rw console=ttyHSL0,115200,n8 androidboot.hardware=qcom ehci-hcd.park=3 msm_rtb.filter=0x37 lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78b3000 androidboot.serialno=12345678 androidboot.authorized_kernel=true androidboot.baseband=[1090] Updating device tree: start
+[1240] Updating device tree: done
+[1240] booting linux @ 0x80008000, ramdisk @ 0x80008000 (0), tags/device tree @ 0x81e00000
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 3.18.48 (fti-sw1@fti-sw1) (gcc version 4.9.3 (GCC) ) #1 PREEMPT Thu Jul 15 15:44:03 KST 2021
+[    0.000000] CPU: ARMv7 Processor [410fc075] revision 5 (ARMv7), cr=10c53c7d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Franklin Technologies, Inc. MDM 9607 RT410 P1
+[    0.000000] Early serial console at I/O port 0x0 (options '')
+[    0.000000] bootconsole [uart0] enabled
+[    0.000000] Reserved memory: reserved region for node 'modem_adsp_region@0': base 0x82a00000, size 80 MiB
+[    0.000000] Reserved memory: reserved region for node 'cnss_debug_region@0': base 0x87a00000, size 2 MiB
+[    0.000000] Reserved memory: reserved region for node 'external_image_region@0': base 0x87c00000, size 4 MiB
+[    0.000000] Removed memory: created DMA memory pool at 0x82a00000, size 80 MiB
+[    0.000000] Reserved memory: initialized node modem_adsp_region@0, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x87a00000, size 2 MiB
+[    0.000000] Reserved memory: initialized node cnss_debug_region@0, compatible id removed-dma-pool
+[    0.000000] Removed memory: created DMA memory pool at 0x87c00000, size 4 MiB
+[    0.000000] Reserved memory: initialized node external_image_region@0, compatible id removed-dma-pool
+[    0.000000] cma: Reserved 4 MiB at 0x8fc00000
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] CPU: All CPU(s) started in SVC mode.
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 63360
+[    0.000000] Kernel command line: noinitrd rw console=ttyHSL0,115200,n8 androidboot.hardware=qcom ehci-hcd.park=3 msm_rtb.filter=0x37 lpm_levels.sleep_disabled=1 earlycon=msm_hsl_uart,0x78b3000 androidboot.serialno=12345678 androidboot.authorized_kernel=true androidboot.baseband=msm rootfstype=ubifs rootflags=bulk_read root=ubi0:rootfs ubi.mtd=14
+[    0.000000] PID hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Dentry cache hash table entries: 32768 (order: 5, 131072 bytes)
+[    0.000000] Inode-cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Memory: 155336K/256000K available (6567K kernel code, 548K rwdata, 2692K rodata, 329K init, 906K bss, 100664K reserved)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xd0800000 - 0xff000000   ( 744 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xd0000000   ( 256 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc0671e70   (6568 kB)
+[    0.000000]       .init : 0xc0945000 - 0xc0997424   ( 330 kB)
+[    0.000000]       .data : 0xc0998000 - 0xc0a21354   ( 549 kB)
+[    0.000000]        .bss : 0xc0a21418 - 0xc0b03ef4   ( 907 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] Preemptible hierarchical RCU implementation.
+[    0.000000]
+[    0.000000] **********************************************************
+[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **                                                      **
+[    0.000000] ** trace_printk() being used. Allocating extra memory.  **
+[    0.000000] **                                                      **
+[    0.000000] ** This means that this is a DEBUG kernel and it is     **
+[    0.000000] ** unsafe for produciton use.                           **
+[    0.000000] **                                                      **
+[    0.000000] ** If you see this message and you are not debugging    **
+[    0.000000] ** the kernel, report this immediately to your vendor!  **
+[    0.000000] **                                                      **
+[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **********************************************************
+[    0.000000] kmemleak: Kernel memory leak detector disabled
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] GIC CPU mask not found - kernel will fail to boot.
+[    0.000000] GIC CPU mask not found - kernel will fail to boot.
+[    0.000000] mpm_init_irq_domain(): Cannot find irq controller for qcom,gpio-parent
+[    0.000000] MPM 1 irq mapping errored -517
+[    0.000000] Architected mmio timer(s) running at 19.20MHz (virt).
+[    0.000011] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 3579139424256ns
+[    0.007974] Switching to timer-based delay loop, resolution 52ns
+[    0.013967] Switched to clocksource arch_mem_counter
+[    0.019881] Console: colour dummy device 80x30
+[    0.023349] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.033664] pid_max: default: 32768 minimum: 301
+[    0.038501] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.044918] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.052627] CPU: Testing write buffer coherency: ok
+[    0.057266] Setting up static identity map for 0x806712c0 - 0x80671318
+[    0.075225] MSM Memory Dump base table set up
+[    0.078610] MSM Memory Dump apps data table set up
+[    0.088475] VFP support v0.3: implementor 41 architecture 2 part 30 variant 7 rev 5
+[    0.099111] pinctrl core: initialized pinctrl subsystem
+[    0.103885] regulator-dummy: no parameters
+[    0.164683] NET: Registered protocol family 16
+[    0.179984] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.244030] cpuidle: using governor ladder
+[    0.274023] cpuidle: using governor menu
+[    0.304021] cpuidle: using governor qcom
+[    0.318226] msm_watchdog b017000.qcom,wdt: wdog absent resource not present
+[    0.324592] msm_watchdog b017000.qcom,wdt: MSM Watchdog Initialized
+[    0.333515] irq: no irq domain found for /soc/pinctrl@1000000 !
+[    0.340023] irq: no irq domain found for /soc/pinctrl@1000000 !
+[    0.352351] spmi_pmic_arb 200f000.qcom,spmi: PMIC Arb Version-2 0x20010000
+[    0.361909] platform 4080000.qcom,mss: assigned reserved memory node modem_adsp_region@0
+[    0.370223] irq: no irq domain found for /soc/pinctrl@1000000 !
+[    0.376904] mem_acc_corner: 0 <--> 0 mV
+[    0.382602] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.389640] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.397305] __of_mpm_init(): MPM driver mapping exists
+[    0.402093] msm_rpm_glink_dt_parse: qcom,rpm-glink compatible not matches
+[    0.408259] msm_rpm_dev_probe: APSS-RPM communication over SMD
+[    0.414029] smd_open() before smd_init()
+[    0.418702] msm_mpm_dev_probe(): Cannot get clk resource for XO: -517
+[    0.427359] smd_channel_probe_now: allocation table not initialized
+[    0.435416] mdm9607_s1: 1050 <--> 1350 mV at 1100 mV normal idle
+[    0.440711] spm_regulator_probe: name=mdm9607_s1, range=LV, voltage=1100000 uV, mode=AUTO, step rate=4800 uV/us
+[    0.451421] cpr_efuse_init: apc_corner: efuse_addr = 0x000a4000 (len=0x1000)
+[    0.457677] cpr_read_fuse_revision: apc_corner: fuse revision = 2
+[    0.463659] cpr_parse_speed_bin_fuse: apc_corner: [row: 37]: 0x68e8dd321a5695c8, speed_bits = 4
+[    0.472443] cpr_pvs_init: apc_corner: pvs voltage: [1050000 1100000 1275000] uV
+[    0.479657] cpr_pvs_init: apc_corner: ceiling voltage: [1050000 1225000 1350000] uV
+[    0.487293] cpr_pvs_init: apc_corner: floor voltage: [1050000 1050000 1150000] uV
+[    0.498032] msm-thermal soc:qcom,msm-thermal: msm_thermal:Failed reading node=/soc/qcom,msm-thermal, key=qcom,core-limit-temp. err=-22. KTM continues
+[    0.510529] msm-thermal soc:qcom,msm-thermal: probe_therm_reset:Failed reading node=/soc/qcom,msm-thermal, key=qcom,therm-reset-temp err=-22. KTM continues
+[    0.524406] msm_thermal:msm_thermal_dev_probe Failed reading node=/soc/qcom,msm-thermal, key=qcom,online-hotplug-core. err:-517
+[    0.537682] sps:sps is ready.
+[    0.542307] msm_rpm_glink_dt_parse: qcom,rpm-glink compatible not matches
+[    0.548201] msm_rpm_dev_probe: APSS-RPM communication over SMD
+[    0.555096] mdm9607_s2: 750 <--> 1275 mV at 750 mV normal idle
+[    0.561097] mdm9607_s3_level: 0 <--> 0 mV at 0 mV normal idle
+[    0.566705] mdm9607_s3_level_ao: 0 <--> 0 mV at 0 mV normal idle
+[    0.572658] mdm9607_s3_floor_level: 0 <--> 0 mV at 0 mV normal idle
+[    0.579041] mdm9607_s3_level_so: 0 <--> 0 mV at 0 mV normal idle
+[    0.585402] mdm9607_s4: 1800 <--> 1950 mV at 1800 mV normal idle
+[    0.591405] mdm9607_l1: 1250 mV normal idle
+[    0.595738] mdm9607_l2: 1800 mV normal idle
+[    0.599900] mdm9607_l3: 1800 mV normal idle
+[    0.604215] mdm9607_l4: 3075 mV normal idle
+[    0.608447] mdm9607_l5: 1700 <--> 3050 mV at 1700 mV normal idle
+[    0.614527] mdm9607_l6: 1700 <--> 3050 mV at 1700 mV normal idle
+[    0.620559] mdm9607_l7: 1700 <--> 1900 mV at 1700 mV normal idle
+[    0.626668] mdm9607_l8: 1800 mV normal idle
+[    0.630881] mdm9607_l9: 1200 <--> 1250 mV at 1200 mV normal idle
+[    0.637027] mdm9607_l10: 1050 mV normal idle
+[    0.641253] mdm9607_l11: 1800 mV normal idle
+[    0.645722] mdm9607_l12_level: 0 <--> 0 mV at 0 mV normal idle
+[    0.651284] mdm9607_l12_level_ao: 0 <--> 0 mV at 0 mV normal idle
+[    0.657546] mdm9607_l12_level_so: 0 <--> 0 mV at 0 mV normal idle
+[    0.663614] mdm9607_l12_floor_lebel: 0 <--> 0 mV at 0 mV normal idle
+[    0.670356] mdm9607_l13: 1800 <--> 2850 mV at 2850 mV normal idle
+[    0.676527] mdm9607_l14: 2650 <--> 3000 mV at 2650 mV normal idle
+[    0.682028] msm_mpm_dev_probe(): Cannot get clk resource for XO: -517
+[    0.688522] cpr_efuse_init: apc_corner: efuse_addr = 0x000a4000 (len=0x1000)
+[    0.695236] cpr_read_fuse_revision: apc_corner: fuse revision = 2
+[    0.701235] cpr_parse_speed_bin_fuse: apc_corner: [row: 37]: 0x68e8dd321a5695c8, speed_bits = 4
+[    0.710017] cpr_pvs_init: apc_corner: pvs voltage: [1050000 1100000 1275000] uV
+[    0.717233] cpr_pvs_init: apc_corner: ceiling voltage: [1050000 1225000 1350000] uV
+[    0.724868] cpr_pvs_init: apc_corner: floor voltage: [1050000 1050000 1150000] uV
+[    0.732565] cpr_init_cpr_parameters: apc_corner: up threshold = 2, down threshold = 3
+[    0.740180] cpr_init_cpr_parameters: apc_corner: CPR is enabled by default.
+[    0.747114] cpr_init_cpr_efuse: apc_corner: [row:65] = 0x150002982983af
+[    0.753669] cpr_init_cpr_efuse: apc_corner: CPR disable fuse = 0
+[    0.759681] cpr_init_cpr_efuse: apc_corner: Corner[1]: ro_sel = 0, target quot = 664
+[    0.767402] cpr_init_cpr_efuse: apc_corner: Corner[2]: ro_sel = 0, target quot = 664
+[    0.775129] cpr_init_cpr_efuse: apc_corner: Corner[3]: ro_sel = 0, target quot = 943
+[    0.783029] cpr_config: apc_corner: Timer count: 0x17700 (for 5000 us)
+[    0.790002] apc_corner: 0 <--> 0 mV
+[    0.793627] msm-thermal soc:qcom,msm-thermal: msm_thermal:Failed reading node=/soc/qcom,msm-thermal, key=qcom,core-limit-temp. err=-22. KTM continues
+[    0.806359] msm-thermal soc:qcom,msm-thermal: probe_therm_reset:Failed reading node=/soc/qcom,msm-thermal, key=qcom,therm-reset-temp err=-22. KTM continues
+[    0.820319] msm_thermal:get_kernel_cluster_info CPU0 topology not initialized.
+[    0.828380] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+[    0.834259] msm_thermal:get_cpu_freq_plan_len Error reading CPU0 freq table len. error:-19
+[    0.842463] msm_thermal:vdd_restriction_reg_init Defer vdd rstr freq init.
+[    0.849923] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+[    0.857113] msm_thermal:get_cpu_freq_plan_len Error reading CPU0 freq table len. error:-19
+[    0.864661] cpu cpu0: dev_pm_opp_get_opp_count: device OPP not found (-19)
+[    0.871894] msm_thermal:get_cpu_freq_plan_len Error reading CPU0 freq table len. error:-19
+[    0.888603] qcom,gcc-mdm9607 1800000.qcom,gcc: Registered GCC clocks
+[    0.894454] clock-a7 b010008.qcom,clock-a7: Speed bin: 4 PVS Version: 0
+[    0.900592] a7ssmux: set OPP pair(400000000 Hz: 1 uV) on cpu0
+[    0.906346] a7ssmux: set OPP pair(1305600000 Hz: 7 uV) on cpu0
+[    0.977775] KPI: Bootloader start count = 25009
+[    0.981269] KPI: Bootloader end count = 66070
+[    0.985750] KPI: Bootloader display count = 3175963641
+[    0.990730] KPI: Bootloader load kernel count = 26616
+[    0.995808] KPI: Kernel MPM timestamp = 126254
+[    1.000191] KPI: Kernel MPM Clock frequency = 32768
+[    1.005118] socinfo_print: v0.10, id=297, ver=1.0, raw_id=72, raw_ver=0, hw_plat=8, hw_plat_ver=65536
+[    1.005118]  accessory_chip=0, hw_plat_subtype=0, pmic_model=65539, pmic_die_revision=131074 foundry_id=6 serial_number=441882056
+[    1.026696] sdcard_ext_vreg: no parameters
+[    1.030472] rome_vreg: no parameters
+[    1.034060] emac_lan_vreg: no parameters
+[    1.038380] SCSI subsystem initialized
+[    1.041660] usbcore: registered new interface driver usbfs
+[    1.046817] usbcore: registered new interface driver hub
+[    1.052070] usbcore: registered new device driver usb
+[    1.058018] i2c-msm-v2 78b9000.i2c: probing driver i2c-msm-v2
+[    1.062828] AXI: msm_bus_scale_register_client(): msm_bus_scale_register_client: Bus driver not ready.
+[    1.071923] i2c-msm-v2 78b9000.i2c: msm_bus_scale_register_client(mstr-id:86):0 (not a problem)
+[    1.081795] kworker/u2:2 (26) used greatest stack depth: 6980 bytes left
+[    1.088006] pps_core: LinuxPPS API ver. 1 registered
+[    1.092408] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    1.101637] kworker/u2:2 (27) used greatest stack depth: 6948 bytes left
+[    1.108366] PTP clock support registered
+[    1.113091] cpufreq: driver msm up and running
+[    1.117702] ION heap system created
+[    1.120358] ION heap qsecom created at 0x8fc00000 with size 400000
+[    1.127226] msm_bus_fabric_init_driver
+[    1.138746] qcom,qpnp-power-on qpnp-power-on-1: PMIC@SID0 Power-on reason: Triggered from PON1 (secondary PMIC) and 'warm' boot
+[    1.149274] qcom,qpnp-power-on qpnp-power-on-1: PMIC@SID0: Unknown power-off reason
+[    1.157132] input: qpnp_pon as /devices/virtual/input/input0
+[    1.162896] PMIC@SID0: PM8019 v2.2 options: 3, 2, 2, 2
+[    1.169453] cfg80211: Calling CRDA to update world regulatory domain
+[    1.175878] Switched to clocksource arch_mem_counter
+[    1.184114] cfg80211: World regulatory domain updated:
+[    1.188223] cfg80211:  DFS Master region: unset
+[    1.192561] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    1.224088] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.231056] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.240931] NET: Registered protocol family 2
+[    1.244500] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.252238] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.260271] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.268244] cfg80211:   (5490000 KHz - 5710000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.276229] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    1.284214] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[    1.292836] TCP established hash table entries: 2048 (order: 1, 8192 bytes)
+[    1.299332] TCP bind hash table entries: 2048 (order: 1, 8192 bytes)
+[    1.305589] TCP: Hash tables configured (established 2048 bind 2048)
+[    1.311956] TCP: reno registered
+[    1.315137] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    1.320913] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    1.327398] NET: Registered protocol family 1
+[    1.333841] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    1.347788] msgmni has been set to 311
+[    1.352405] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 248)
+[    1.358946] io scheduler noop registered
+[    1.362674] io scheduler deadline registered
+[    1.367201] io scheduler cfq registered (default)
+[    1.378084] msm_rpm_log_probe: OK
+[    1.381579] pil-q6v5-mss 4080000.qcom,mss: Failed to find the pas_id.
+[    1.388410] uart_tx_gpio is not available
+[    1.391385] uart_rx_gpio is not available
+[    1.395522] uart_cts_gpio is not available
+[    1.399457] uart_rfr_gpio is not available
+[    1.404260] sps: BAM device 0x07884000 is not registered yet.
+[    1.409799] sps:BAM 0x07884000 is registered.
+[    1.415925] 78b1000.uart: ttyHS0 at MMIO 0x78b1000 (irq = 26, base_baud = 460800) is a MSM HS UART
+[    1.426174] msm_serial_hs module loaded
+[    1.429381] msm_serial_hsl_probe: detected port #0 (ttyHSL0)
+[    1.434716] AXI: get_pdata(): Error: Client name not found
+[    1.440080] AXI: msm_bus_cl_get_pdata(): client has to provide missing entry for successful registration
+[    1.449620] msm_serial_hsl_probe: Bus scaling is disabled
+[    1.455129] 78b3000.serial: ttyHSL0 at MMIO 0x78b3000 (irq = 24, base_baud = 460800▒+▒r▒▒▒▒▒▒▒msm_hsl_console_setup: console setup on port #0
+[    1.468100] console [ttyHSL0] enabled
+[    1.468100] console [ttyHSL0] enabled
+[    1.475335] bootconsole [uart0] disabled
+[    1.475335] bootconsole [uart0] disabled
+[    1.483584] msm_serial_hsl_init: driver initialized
+[    1.509220] brd: module loaded
+[    1.514962] loop: module loaded
+[    1.517625] max77818_i2c_probe : attached
+[    1.521577] max77818_pmic_get_platdata : INTGPIO 4 assigned
+[    1.526747] max77818_pmic_get_platdata : property:INTGPIO   4
+[    1.532342] max77818_pmic_get_platdata : property:IRQ       55
+[    1.538233] max77818_pmic_get_platdata : property:FUEL_MODE 1
+[    1.544347] max77818_pmic_setup : driver core 1.0 installed
+[    1.549605] i2c-msm-v2 78b9000.i2c: msm_bus_scale_register_client(mstr-id:86):0x3 (ok)
+[    1.558431] max77818_pmic_setup : CHIP ID 23h REV 3h
+[    1.562355] max77818_i2c_probe : probe done !!
+[    1.567388] QCE50: __qce_get_device_tree_data: BAM Apps EE is not defined, setting to default 1
+[    1.576990] qce 720000.qcedev: Qualcomm Crypto 5.3.3 device found @0x720000
+[    1.582926] qce 720000.qcedev: CE device = 0x0
+[    1.582926] , IO base, CE = 0xd0b40000
+[    1.582926] , Consumer (IN) PIPE 2,    Producer (OUT) PIPE 3
+[    1.582926] IO base BAM = 0x  (null)
+[    1.582926] BAM IRQ 43
+[    1.582926] Engines Availability = 0x2010853
+[    1.607590] sps:BAM 0x00704000 is registered.
+[    1.611536] sps:BAM 0x00704000 (va:0xd0b80000) enabled: ver:0x27, number of pipes:8
+[    1.619909] QCE50: qce_sps_init:  Qualcomm MSM CE-BAM at 0x0000000000704000 irq 43
+[    1.629919] QCE50: __qce_get_device_tree_data: BAM Apps EE is not defined, setting to default 1
+[    1.640007] qcrypto 720000.qcrypto: Qualcomm Crypto 5.3.3 device found @0x720000
+[    1.646468] qcrypto 720000.qcrypto: CE device = 0x0
+[    1.646468] , IO base, CE = 0xd0bc0000
+[    1.646468] , Consumer (IN) PIPE 4,    Producer (OUT) PIPE 5
+[    1.646468] IO base BAM = 0x  (null)
+[    1.646468] BAM IRQ 43
+[    1.646468] Engines Availability = 0x2010853
+[    1.672084] QCE50: qce_sps_init:  Qualcomm MSM CE-BAM at 0x0000000000704000 irq 43
+[    1.680995] qcrypto 720000.qcrypto: qcrypto-ecb-aes
+[    1.685163] qcrypto 720000.qcrypto: qcrypto-cbc-aes
+[    1.689940] qcrypto 720000.qcrypto: qcrypto-ctr-aes
+[    1.694948] qcrypto 720000.qcrypto: qcrypto-ecb-des
+[    1.699599] qcrypto 720000.qcrypto: qcrypto-cbc-des
+[    1.704528] qcrypto 720000.qcrypto: qcrypto-ecb-3des
+[    1.709407] qcrypto 720000.qcrypto: qcrypto-cbc-3des
+[    1.714457] qcrypto 720000.qcrypto: qcrypto-xts-aes
+[    1.719212] qcrypto 720000.qcrypto: qcrypto-sha1
+[    1.723802] qcrypto 720000.qcrypto: qcrypto-sha256
+[    1.728706] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha1-cbc-aes
+[    1.734864] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha1-cbc-des
+[    1.740905] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha1-cbc-3des
+[    1.747233] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha256-cbc-aes
+[    1.753491] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha256-cbc-des
+[    1.759894] qcrypto 720000.qcrypto: qcrypto-aead-hmac-sha256-cbc-3des
+[    1.766363] qcrypto 720000.qcrypto: qcrypto-hmac-sha1
+[    1.771301] qcrypto 720000.qcrypto: qcrypto-hmac-sha256
+[    1.776573] qcrypto 720000.qcrypto: qcrypto-aes-ccm
+[    1.781359] qcrypto 720000.qcrypto: qcrypto-rfc4309-aes-ccm
+[    1.787262] SCSI Media Changer driver v0.25
+[    1.795131] sps: BAM device 0x07984000 is not registered yet.
+[    1.800412] sps:BAM 0x07984000 is registered.
+[    1.804304] msm_nand_bam_init: msm_nand_bam_init: BAM device registered: bam_handle 0xce842c00
+[    1.813072] sps:BAM 0x07984000 (va:0xd0b20000) enabled: ver:0x18, number of pipes:7
+[    1.822670] msm_nand_parse_smem_ptable: Parsing partition table info from SMEM
+[    1.828980] msm_nand_parse_smem_ptable: SMEM partition table found: ver: 4 len: 15
+[    1.836466] msm_nand_version_check: nand_major:1, nand_minor:5, qpic_major:1, qpic_minor:5
+[    1.844963] msm_nand_flash_onfi_probe: Found an ONFI compliant device SK HYNIX    H27S2G8F2DKA-BM     ▒
+[    1.854069] msm_nand_scan: NAND Id: 0x1590aaad Buswidth: 8Bits Density: 256 MByte
+[    1.861494] msm_nand_scan: pagesize: 2048 Erasesize: 131072 oobsize: 128 (in Bytes)
+[    1.869167] msm_nand_scan: BCH ECC: 4 Bit
+[    1.873134] msm_nand_scan: CFG0: 0x2a0408c0,           CFG1: 0x0804745c
+[    1.873134]             RAWCFG0: 0x2c8400c0,        RAWCFG1: 0x0005055d
+[    1.873134]           ECCBUFCFG: 0x00000203,      ECCBCHCFG: 0x42040700
+[    1.873134]           RAWECCCFG: 0x42000701, BAD BLOCK BYTE: 0x000001d1
+[    1.899844] Creating 15 MTD partitions on "7980000.nand":
+[    1.904942] 0x000000000000-0x000000140000 : "sbl"
+[    1.910540] 0x000000140000-0x000000280000 : "mibib"
+[    1.915325] 0x000000280000-0x000000e80000 : "efs2"
+[    1.920035] 0x000000e80000-0x000000f40000 : "tz"
+[    1.924698] 0x000000f40000-0x000000fa0000 : "rpm"
+[    1.929333] 0x000000fa0000-0x000001040000 : "aboot"
+[    1.934213] 0x000001040000-0x000001820000 : "boot"
+[    1.938934] 0x000001820000-0x000002860000 : "scrub"
+[    1.943774] 0x000002860000-0x000005160000 : "modem"
+[    1.948717] 0x000005160000-0x0000052a0000 : "misc"
+[    1.953466] 0x0000052a0000-0x000005a80000 : "recovery"
+[    1.958640] 0x000005a80000-0x000005c00000 : "fota"
+[    1.963340] 0x000005c00000-0x000006de0000 : "recoveryfs"
+[    1.968731] 0x000006de0000-0x000006e20000 : "sec"
+[    1.973289] 0x000006e20000-0x000010000000 : "system"
+[    1.978325] msm_nand_probe: NANDc phys addr 0x7980000, BAM phys addr 0x7984000, BAM IRQ 29
+[    1.985768] msm_nand_probe: Allocated DMA buffer at virt_addr 0xcfc44000, phys_addr 0x8fc44000
+[    1.998756] sps:BAM 0x07884000 (va:0xd09c0000) enabled: ver:0x18, number of pipes:24
+[    2.006758] [lcd_panel_init:904]
+[    2.009808] Probe device ld7032-lcd
+[    2.012909] tun: Universal TUN/TAP device driver, 1.6
+[    2.017584] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    2.025664] PPP generic driver version 2.4.2
+[    2.034873] cnss_sdio 87a00000.qcom,cnss-sdio: cnss_sdio_tsf_init: fail to get irq: -22
+[    2.041925] cnss_sdio:cnss_configure_ramdump:558:: ramdump addr: d2c00000, phys: 0x87a00000 subsys:'AR6320'
+[    2.051802] cnss_sdio 87a00000.qcom,cnss-sdio: for AR6320 segments only will be dumped.
+[    2.060799] cnss_sdio 87a00000.qcom,cnss-sdio: CNSS SDIO Driver registered
+[    2.069684] usbcore: registered new interface driver asix
+[    2.074241] usbcore: registered new interface driver ax88179_178a
+[    2.080203] usbcore: registered new interface driver cdc_ether
+[    2.086051] usbcore: registered new interface driver net1080
+[    2.091635] usbcore: registered new interface driver cdc_subset
+[    2.097585] usbcore: registered new interface driver zaurus
+[    2.103403] usbcore: registered new interface driver cdc_ncm
+[    2.109168] msm_otg 78d9000.usb: msm_otg probe
+[    2.115439] msm_otg 78d9000.usb: OTG regs = d09b2000
+[    2.121998] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    2.127971] ehci-msm: Qualcomm On-Chip EHCI Host Controller
+[    2.133470] usbcore: registered new interface driver cdc_acm
+[    2.138750] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    2.147112] usbcore: registered new interface driver usb_ehset_test
+[    2.154199] gbridge_init: gbridge_init successs.
+[    2.159772] msm_otg 78d9000.usb: phy_reset: success
+[    2.164169] qcom,qpnp-rtc qpnp-rtc-5: rtc core: registered qpnp_rtc as rtc0
+[    2.170760] i2c /dev entries driver
+[    2.175008] pps pps0: new PPS source soc:pps.-1
+[    2.178644] pps pps0: Registered IRQ 104 as PPS source
+[    2.183855] **smart-charging: max77818_charger_init :
+[    2.189217] **smart-charging: max77818_charger_probe : Max77818 Charger Driver Loading
+[    2.196897] **smart-charging: property:FCHGTIME [14hour]
+[    2.201986] **smart-charging: property:AC_CC [1450mA], USB_CC[500mA], SLOW_CC[450mA]
+[    2.209864] **smart-charging: property:TOPOFF_ITH [250mA], TOPOFF_TIME [0min]
+[    2.216867] **smart-charging: property:CHG_RSTRT [150mV], CHG_CV_PRM [4300mV]
+[    2.223950] **smart-charging: property:INPUT_CURRENT: AC [2000mA] USB [2000mA] SLOW [2000mA]
+[    2.232489] **smart-charging: property:USB ID GPIO [54] value[0]
+[    2.239736] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:1 cur:0 tx) bc(rx:0 tx:2) mode:FIFO slv_addr:0x69 MSTR_STS:0x011363c8 OPER:0x00000090
+[    2.254478] **smart-charging: CHG_INT_MASK write error [-107]
+[    2.260523] **smart-charging: max77818_charger_probe : Max77818 Charger Driver Loaded
+[    2.269944] **smart-charging: MAX77818 Fuelgauge Driver Loading
+[    2.275085] **smart-charging: max77818_fg_parse_dt : alert soc [2%], limited soc [85%]
+[    2.282734] **smart-charging: max77818_fg_parse_dt : tsens_temp_warn_thres [74°C] temp warn_clr thres[71°C], tsens_temp_alert_thres[77°C]
+[    2.295454] **smart-charging: max77818_fg_parse_dt : batt_high_temp_warn_thres [54°C] temp warn_clr thres[51°C], batt_high_temp_alert_thres[57°C]
+[    2.308914] **smart-charging: max77818_fg_parse_dt : batt_low_temp_warn_thres [-18°C] temp warn_clr thres[-16°C], batt_low_temp_alert_thres[-20°C]
+[    2.322264] **smart-charging: max77818_fg_parse_dt : limited service time 10h ~ 15h
+[    2.329982] **smart-charging: max77818_fg_parse_dt : charger inuse warning [48h], alert [240h]
+[    2.338665] **smart-charging: max77818_fg_parse_dt : traffic waiting time [20min], monitoring [1min], limited traffic [10MB]
+[    2.350536] **smart-charging: MAX77818 Fuel-Gauge Ver 0x20b0
+[    2.357143] **smart-charging: max77818_fg_initialize : Power on State [Reset]
+[    2.365038] **smart-charging: max77818_fg_initialize : soc [99%] vcell[2581mV]
+[    2.393961] sdhci: Secure Digital Host Controller Interface driver
+[    2.399185] sdhci: Copyright(c) Pierre Ossman
+[    2.403531] sdhci-pltfm: SDHCI platform and OF driver helper
+[    2.410968] usbcore: registered new interface driver usbhid
+[    2.416257] sdhci_msm 7824900.sdhci: sdhci_msm_probe: ICE device is not enabled
+[    2.422837] sdhci_msm 7824900.sdhci: No vreg data found for vdd
+[    2.428789] usbhid: USB HID core driver
+[    2.434264] sdhci_msm 7824900.sdhci: sdhci_msm_pm_qos_parse_irq: error -22 reading irq cpu
+[    2.441497] sdhci_msm 7824900.sdhci: sdhci_msm_pm_qos_parse: PM QoS voting for IRQ will be disabled
+[    2.451017] bimc-bwmon 408000.qcom,cpu-bwmon: BW HWmon governor registered.
+[    2.458450] devfreq soc:qcom,cpubw: Couldn't update frequency transition information.
+[    2.465673] Netfilter messages via NETLINK v0.30.
+[    2.470028] nf_conntrack version 0.5.0 (2491 buckets, 9964 max)
+[    2.475949] sdhci_msm 7824900.sdhci: sdhci_msm_pm_qos_parse: PM QoS voting for cpu group will be disabled
+[    2.486058] ctnetlink v0.93: registering with nfnetlink.
+[    2.491444] ip_set: protocol 6
+[    2.493884] gre: GRE over IPv4 demultiplexor driver
+[    2.499117] ip_gre: GRE over IPv4 tunneling driver
+[    2.506200] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    2.510662] arp_tables: (C) 2002 David S. Miller
+[    2.515437] sdhci_msm 7824900.sdhci: sdhci_msm_probe: sdiowakeup_irq = 110
+[    2.521999] sdhci_msm 7824900.sdhci: sdhci_msm_cfg_sdiowakeup_gpio_irq: wakeup to config: 0 curr: 0
+[    2.531101] TCP: cubic registered
+[    2.534309] Initializing XFRM netlink socket
+[    2.539244] NET: Registered protocol family 10
+[    2.543480] sdhci_msm 7824900.sdhci: No vmmc regulator found
+[    2.548659] sdhci_msm 7824900.sdhci: No vqmmc regulator found
+[    2.555586] mip6: Mobile IPv6
+[    2.557557] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    2.563142] sit: IPv6 over IPv4 tunneling driver
+[    2.568173] mmc0: SDHCI controller on 7824900.sdhci [7824900.sdhci] using 32-bit ADMA in legacy mode
+[    2.578461] ip6_gre: GRE over IPv6 tunneling driver
+[    2.582960] NET: Registered protocol family 17
+[    2.586880] NET: Registered protocol family 15
+[    2.591240] bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need this.
+[    2.604103] Bridge firewalling registered
+[    2.607749] Ebtables v2.0 registered
+[    2.611453] 8021q: 802.1Q VLAN Support v1.8
+[    2.618406] NET: Registered protocol family 27
+[    2.628172] pil-q6v5-mss 4080000.qcom,mss: Failed to find the pas_id.
+[    2.634474] pil-q6v5-mss 4080000.qcom,mss: for modem segments only will be dumped.
+[    2.665048] ubi0: attaching mtd14
+[    2.678267] mmc0: queuing unknown CIS tuple 0x01 (3 bytes)
+[    2.711310] mmc0: queuing unknown CIS tuple 0x1a (5 bytes)
+[    2.737329] mmc0: queuing unknown CIS tuple 0x1b (8 bytes)
+[    2.764045] mmc0: queuing unknown CIS tuple 0x14 (0 bytes)
+[    2.776388] mmc0: queuing unknown CIS tuple 0x80 (1 bytes)
+[    2.804155] mmc0: queuing unknown CIS tuple 0x81 (1 bytes)
+[    2.808725] mmc0: queuing unknown CIS tuple 0x82 (1 bytes)
+[    2.824080] mmc0: new ultra high speed SDR104 SDIO card at address 0001
+[    2.837338] cnss_sdio:cnss_sdio_wlan_inserted:836:: SDIO Device is Probed
+[    3.458606] ubi0: scanning is finished
+[    3.469387] ubi0: attached mtd14 (name "system", size 145 MiB)
+[    3.474271] ubi0: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    3.481039] ubi0: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    3.487846] ubi0: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    3.494791] ubi0: good PEBs: 1167, bad PEBs: 0, corrupted PEBs: 0
+[    3.500829] ubi0: user volume: 3, internal volumes: 1, max. volumes count: 128
+[    3.508171] ubi0: max/mean erase counter: 14/7, WL threshold: 4096, image sequence number: 1078630968
+[    3.517272] ubi0: available PEBs: 0, total reserved PEBs: 1167, PEBs reserved for bad PEB handling: 40
+[    3.526571] ubi0: background thread "ubi_bgt0d" started, PID 145
+[    3.533384] file system registered
+[    3.536067] mbim_init: initialize 1 instances
+[    3.540357] mbim_init: Initialized 1 ports
+[    3.546622] rndis_qc_init: initialize rndis QC instance
+[    3.551204] Number of LUNs=8
+[    3.553719] Mass Storage Function, version: 2009/09/11
+[    3.558922] LUN: removable file: (no medium)
+[    3.563126] Number of LUNs=1
+[    3.566074] LUN: removable file: (no medium)
+[    3.570172] Number of LUNs=1
+[    3.573443] android_usb gadget: android_usb ready
+[    3.577776] msm_hsusb msm_hsusb: [ci13xxx_start] hw_ep_max = 32
+[    3.583641] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_UDC_STARTED_EVENT received
+[    3.592687] input: gpio-keys as /devices/soc:keys/input/input1
+[    3.598147] qcom,qpnp-rtc qpnp-rtc-5: setting system clock to 1970-01-01 00:00:12 UTC (12)
+[    3.606793] parse_legacy_cluster_params(): Ignoring cluster params
+[    3.611955] /soc/qcom,lpm-levels/qcom,pm-cluster@0: No CPU phandle, assuming single cluster
+[    3.620363] calculate_residency: residency < 0 for LPM
+[    3.625427] parse_cpu_levels: idx 1 420
+[    3.629208] calculate_residency: residency < 0 for LPM
+[    3.634367] parse_cpu_levels: idx 2 500
+[    3.638154] parse_cpu_levels: idx 2 3040
+[    3.645622] qcom,cc-debug-mdm9607 1800000.qcom,debug: Registered Debug Mux successfully
+[    3.652955] mem_acc_corner: disabling
+[    3.656647] rome_vreg: disabling
+[    3.659454] emac_lan_vreg: disabling
+[    3.663021] clock_late_init: Removing enables held for handed-off clocks
+[    3.684094] UBIFS (ubi0:0): background thread "ubifs_bgt0_0" started, PID 148
+[    3.716875] UBIFS (ubi0:0): recovery needed
+[    3.813424] UBIFS (ubi0:0): recovery completed
+[    3.817007] UBIFS (ubi0:0): UBIFS: mounted UBI device 0, volume 0, name "rootfs"
+[    3.824259] UBIFS (ubi0:0): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    3.834148] UBIFS (ubi0:0): FS size: 56377344 bytes (53 MiB, 444 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    3.844559] UBIFS (ubi0:0): reserved for root: 0 bytes (0 KiB)
+[    3.850344] UBIFS (ubi0:0): media format: w4/r0 (latest is w4/r0), UUID 5D391FB2-5059-4C89-B94F-A985BAD1ECAA, small LPT model
+[    3.863283] VFS: Mounted root (ubifs filesystem) on device 0:12.
+[    3.868918] Freeing unused kernel memory: 328K (c0945000 - c0997000)
+[    3.874641] This architecture does not have kernel memory protection.
+INIT: version 2.88 booting
+[    4.161421] mount (151) used greatest stack depth: 5548 bytes left
+kernel.core_pattern = /var/tmp/core.%e.%p.%s.%t
+[    4.221811] rc (155) used greatest stack depth: 5480 bytes left
+[    4.251183] grep (158) used greatest stack depth: 5224 bytes left
+/bin/sh: /etc/mdev/iio.sh: not found
+[    4.651839] mount (175) used greatest stack depth: 5216 bytes left
+[    4.794071] UBIFS (ubi0:1): background thread "ubifs_bgt0_1" started, PID 203
+[    4.825481] UBIFS (ubi0:1): recovery needed
+[    4.967749] UBIFS (ubi0:1): recovery completed
+[    4.971263] UBIFS (ubi0:1): UBIFS: mounted UBI device 0, volume 1, name "usrfs"
+[    4.978509] UBIFS (ubi0:1): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    4.988385] UBIFS (ubi0:1): FS size: 9904128 bytes (9 MiB, 78 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    4.998541] UBIFS (ubi0:1): reserved for root: 0 bytes (0 KiB)
+[    5.004461] UBIFS (ubi0:1): media format: w4/r0 (latest is w4/r0), UUID 05531FA9-01A4-4E9D-9042-727E1C978EC9, small LPT model
+[    5.044187] UBIFS (ubi0:2): background thread "ubifs_bgt0_2" started, PID 206
+[    5.073874] UBIFS (ubi0:2): recovery needed
+[    5.173818] UBIFS (ubi0:2): recovery completed
+[    5.177383] UBIFS (ubi0:2): UBIFS: mounted UBI device 0, volume 2, name "cachefs"
+[    5.184743] UBIFS (ubi0:2): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    5.194636] UBIFS (ubi0:2): FS size: 72249344 bytes (68 MiB, 569 LEBs), journal size 3555328 bytes (3 MiB, 28 LEBs)
+[    5.205144] UBIFS (ubi0:2): reserved for root: 3412514 bytes (3332 KiB)
+[    5.211610] UBIFS (ubi0:2): media format: w4/r0 (latest is w4/r0), UUID 53A319F2-8785-4A78-8739-F2BD9493A5A8, small LPT model
+MTD : Detected block device : /firmware for modem
+[    5.300932] ubi1: attaching mtd8
+[    5.498881] ubi1: scanning is finished
+[    5.508678] ubi1: attached mtd8 (name "modem", size 41 MiB)
+[    5.513219] ubi1: PEB size: 131072 bytes (128 KiB), LEB size: 126976 bytes
+[    5.534160] ubi1: min./max. I/O unit sizes: 2048/2048, sub-page size 2048
+[    5.539917] ubi1: VID header offset: 2048 (aligned 2048), data offset: 4096
+[    5.547856] ubi1: good PEBs: 328, bad PEBs: 0, corrupted PEBs: 0
+[    5.552848] ubi1: user volume: 1, internal volumes: 1, max. volumes count: 128
+[    5.560167] ubi1: max/mean erase counter: 1/0, WL threshold: 4096, image sequence number: 1710907437
+[    5.569246] ubi1: available PEBs: 0, total reserved PEBs: 328, PEBs reserved for bad PEB handling: 40
+[    5.584164] ubi1: background thread "ubi_bgt1d" started, PID 216
+UBI device number 1, total 328 LEBs (41648128 bytes, 39.7 MiB), available 0 LEBs (0 bytes), LEB size 126976 bytes (124.0 KiB)
+[    5.691582] UBIFS (ubi1:0): UBIFS: mounted UBI device 1, volume 0, name "modem", R/O mode
+[    5.698820] UBIFS (ubi1:0): LEB size: 126976 bytes (124 KiB), min./max. I/O unit sizes: 2048 bytes/2048 bytes
+[    5.708762] UBIFS (ubi1:0): FS size: 34664448 bytes (33 MiB, 273 LEBs), journal size 9023488 bytes (8 MiB, 72 LEBs)
+[    5.719072] UBIFS (ubi1:0): reserved for root: 0 bytes (0 KiB)
+[    5.724889] UBIFS (ubi1:0): media format: w4/r0 (latest is w4/r0), UUID AFCC1BFA-D696-486B-BA7C-04331577A359, small LPT model
+[    5.744895] Starting psmd: done
+[    6.010750] PSM: Found config file ARGV /data/psm
+[    6.018946] PSM: PSMD Start
+[    6.052706] PSM: server_config_path /data/psm/server_config
+[    6.062530] PSM: Path for PSM configuration: /data/psm
+[    6.074978] PSM: modem_flag_path /data/psm/modem_flag
+[    6.079764] PSM: backup_nv_path /data/psm/psm_nv_backup.txt
+[    6.095939] PSM: Load modem flag: 1
+[    6.098442] subsys-restart: __subsystem_get(): Changing subsys fw_name to modem
+[    6.150551] pil-q6v5-mss 4080000.qcom,mss: modem: loading from 0x82a00000 to 0x86d00000
+[    6.211171] pil-q6v5-mss 4080000.qcom,mss: Debug policy not present - msadp. Continue.
+[    6.232501] pil-q6v5-mss 4080000.qcom,mss: Loading MBA and DP (if present) from 0x8fe00000 to 0x8ff00000 size 100000
+Starting port_bridge: done
+[    6.302804] pil-q6v5-mss 4080000.qcom,mss: MBA boot done
+ == Current Carrier ==
+TMOBILE
+[    6.464770] exe (277) used greatest stack depth: 5184 bytes left
+soc: MDM9207
+serialno: 12345678
+9057
+[    6.742805] Switching to composition number 0x9057
+[    6.812639] enable_store: android_usb: already disabled
+[    6.854719] rndis_function_bind_config: rndis_function_bind_config MAC: 00:00:00:00:00:00
+[    6.884148] android_usb gadget: using random self ethernet address
+[    6.889334] android_usb gadget: using random host ethernet address
+[    6.905412] rndis0: MAC 1e:90:fb:53:a4:35
+[    6.908385] rndis0: HOST MAC a6:c0:03:e0:87:22
+[    6.954207] ecm_function_bind_config: ecm_function_bind_config MAC:
+[    6.974786] gether_setup_name_default: using random self ethernet address
+[    6.982313] gether_setup_name_default: using random host ethernet address
+[    6.998662] ecm0: HOST MAC ee:22:9e:7f:95:be
+[    7.001944] ecm0: MAC 42:24:1c:0d:5c:9b
+[    7.304080] msm_otg 78d9000.usb: USB in low power mode
+[    7.388395] xmllint (323) used greatest stack depth: 4860 bytes left
+[    7.439446] msm_otg 78d9000.usb: phy_reset: success
+[    7.564142] msm_otg 78d9000.usb: USB exited from low power mode
+[    7.575367] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESET_EVENT received
+[    7.581044] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+[    7.710799] msm_otg 78d9000.usb: Avail curr from USB = 100
+[    7.716267] android_work: android_work: did not send uevent (0 0 00000000)
+[    7.764165] android_work: android_work: sent uevent USB_STATE=CONNECTED
+[    7.840693] android_usb gadget: high-speed config #1: 86000c8.android_usb
+[    7.846577] msm_otg 78d9000.usb: Avail curr from USB = 500
+[    7.853919] rndis_command_complete: rndis_command_complete: MaxTransferSize: 16384 : Multi_pkt_txr: enabled
+User defined signal 1    7.916755] rmagt_app (329) used greatest stack depth: 4732 bytes left
+
+
+redirect_io() => /dev/console
+[rmagt_app] waitBootingFinished() sleep until booting is finished(63s).
+[    7.934136] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+[    8.008368] Starting qti: QTI:start
+[    8.033325] done
+[    8.171326] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+Thu Nov  7 23:29:34 UTC 2024
+hwclock: RTC_SET_TIME: Invalid argument
+[    8.238476] Starting QCMAP_ConnectionManager: QCMAP:start
+[    8.263657] done
+INIT: Entering runlevel: 5
+Configuring network interfaces... [    8.549056] QCMAP:Start Main
+[    8.608205] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+done.
+kernel.core_pattern = /var/tmp/core.%e.%p.%s.%t
+ln: /system/lib/lib: File exists
+ln: /vendor/vendor: File exists
+chown: /media/card: No such file or directory
+[    8.900307] QCMAP:Start DHCP server
+Starting syslogd done
+Starting irsc_util: Starting irsc tool
+Failed to open file:/etc/sec_config
+Absent/Invalid config,Default rules apply
+Ending irsc tool
+done
+Starting time_services: done
+Starting modem dependent daemons: [    9.262084] random: dnsmasq urandom read with 103 bits of entropy available
+restart_level for modem to RELATED
+[    9.389726] QCMAP:DHCP server started
+[    9.528267] device rndis0 entered promiscuous mode
+[    9.567041] device ecm0 entered promiscuous mode
+[    9.574760] bridge0: port 1(rndis0) entered forwarding state
+[    9.579490] bridge0: port 1(rndis0) entered forwarding state
+[    9.604066] msm_otg_chg_check_timer_func() Nothing to do in chg_check_timer
+[    9.620981] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[    9.654738] USB Client Mac Address is a6:c0:3:e0:87:22
+[    9.662723] IPv6: ADDRCONF(NETDEV_UP): ecm0: link is not ready
+[    9.696648] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[    9.749335] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[    9.801677] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[    9.862134] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[QCMAP_CM] qcmap_cm_init_permanent(): lifetime_transferred 123049716440
+[QCMAP_CM] sysfs_set_smart_charging(): 1
+[    9.899307] QCMAP: sysfs_set_smart_charging(): 1
+[    9.913171] **smart-charging: Smart Charging is enabled !!
+[    9.936738] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[QCMAP_CM] GetUiCfg() : tod_enable 0, arr_cnt 0
+[    9.966900] QTI:Processing LINK_UP
+[    9.972307] QTI:RNDIS mode
+[    9.999411] QTI:Enable mobileap
+[   10.016167] QTI:LINK_UP message posted
+[   10.038602] QCMAP:WLAN mode
+[   10.058921] QCMAP:Start WLAN Enable
+[   10.208177] QCMAP:qcmap_cm_charger_connected true
+[   10.284162] Starting WLAN... start ap mtu_size=1500
+[   10.288233] MTU Size is 1500
+[   10.667869] QCMAP:USB Client IP Addr fe80::ce91:f56b:75e0:9161
+[   11.292281] wlan: loading driver v4.0.11.205G
+[   11.389706] mmc0: queuing unknown CIS tuple 0x01 (3 bytes)
+[   11.411986] mmc0: queuing unknown CIS tuple 0x1a (5 bytes)
+[   11.427264] mmc0: queuing unknown CIS tuple 0x1b (8 bytes)
+[   11.444280] mmc0: queuing unknown CIS tuple 0x14 (0 bytes)
+[   11.472815] hifDeviceInserted: Dumping clocks (50000000,200000000)
+[   11.481218] Decrease host clock from 50000000 to 100000000(50000000,200000000)
+[   11.505657] HIFDumpCCCR 0(43) 1(3) 2(0) 3(0) 4(0) 5(0) 6(0) 7(6) 8(17) 9(0) A(10) B(0) C(0) D(0) E(0) F(0) 10(0) 11(0) 12(1) 13(7) 14(7) 15(37) 16(1)
+[   11.536079] AR6000: Set async interrupt delay clock as 2.
+[   11.597644] R0: wlan: [616:E :HDD] hdd_apply_cfg_ini: Reg Parameter gRrmOperChanMax > allowed Maximum [8 > 7]. Enforcing Default= 4
+[   11.622127] R0: wlan: [616:E :HDD] hdd_apply_cfg_ini: Reg Parameter gRrmNonOperChanMax > allowed Maximum [8 > 7]. Enforcing Default= 4
+[   11.645572] R0: wlan: [616:E :HDD] hdd_apply_cfg_ini: Reg Parameter 5g_rssi_boost_threshold > allowed Maximum [4294967236 > 4294967226]. Enforcing Default= 4294967236
+[   11.674140] R0: wlan: [616:E :HDD] hdd_apply_cfg_ini: Reg Parameter 5g_rssi_boost_threshold < allowed Minimum [4294967236 < 4294967241]. Enforcing Default= 4294967236
+[   11.704213] R0: wlan: [616:E :HDD] hdd_apply_cfg_ini: Reg Parameter 5g_rssi_penalize_threshold > allowed Maximum [4294967226 > 4294967216]. Enforcing Default= 4294967226
+[   11.734086] R0: wlan: [616:E :HDD] hdd_apply_cfg_ini: Reg Parameter 5g_rssi_penalize_threshold < allowed Minimum [4294967226 < 4294967231]. Enforcing Default= 4294967226
+[   11.878635] AR6000: configuration opcode 3 is not used for Linux SDIO stack
+[   11.894916] NUM_DEV=1 FWMODE=0x2 FWSUBMODE=0x0 FWBR_BUF 0
+[   11.914849] ol_download_firmware: Using 0x1234 for the remainder of init
+[   11.960364] random: nonblocking pool is initialized
+[   11.981304] R0: wlan: [616:E :VOS] __ol_transfer_bin_file: transferring file: otp.bin size 25061 bytes done!
+[   12.004645] ol_download_firmware: chip_id:0x5020001 board_id:0x0
+[   12.010010] __ol_transfer_bin_file: Failed to get bdwlan.b00:-2
+[   12.024052] __ol_transfer_bin_file: Trying to load default bdwlan.bin
+[   12.035901] Board extended Data download address: 0x0
+[   12.057631] R0: wlan: [616:E :VOS] __ol_transfer_bin_file: transferring file: bdwlan.bin size 8124 bytes done!
+[   12.074737] __ol_transfer_bin_file: no Setup file defined
+[   12.804902] R0: wlan: [616:E :VOS] __ol_transfer_bin_file: transferring file: qwlan.bin size 613096 bytes done!
+[   12.825941] +HTCCreate ..  HIF :ce8e4000
+[   12.828975] HIF Interrupt processing is SYNC ONLY
+[   12.833603] AR6000: configuration opcode 7 is only used for RTOS systems, not Linux systems
+[   12.864035] AR6000: configuration opcode 5 is not used for Linux SDIO stack
+[   12.870265] -HTCCreate (0xccabe000)
+[   12.884314] R0: wlan: [616:F :WDA] WMA --> wmi_unified_attach - success
+[   12.889950] ol_if_dfs_attach: called; ptr=ce905d60, radar_info=cd7fda1c
+[   12.910562] +HWT
+[   12.924594] Target Ready! : transmit resources : 3 size:1792, MaxMsgsPerHTCBundle = 32
+[   12.931818] HTC Service Index : 1 TX : 0x100 : alloc:3
+[   12.954071] HTC Service:0x0001, ULpipe:1 DLpipe:0 id:0 Ready
+[   12.958769] -HWT
+[   12.960777] MAILBOX SWAP Service is enabled!
+[   12.974070] Reduced Tx Complete service is enabled!
+[   12.980726] is_full_reorder_offloaded? 0
+[   12.983620] HTC Service TX : 0x300 : allocation is zero!
+[   13.005577] HTC Service:0x0300, ULpipe:1 DLpipe:0 id:1 Ready
+[   13.010203] HTC Service:0x0300 ep:1 TX flow control disabled
+[   13.025033] TXRX: page_divider 0x6, offset_filter 0x3f num elem 4800, ol desc num page 75, ol desc per page 64HTC Service:0x0100, ULpipe:3 DLpipe:2 id:2 Ready
+[   13.048410] R0: wlan: [616:F :WDA] WMA --> wmi_unified_connect_htc_service - success
+[   13.064110] R0: wlan: [635:F :WDA] McThread: WNI_CFG_DNLD_REQ
+[   13.068890] HTC using TX credit flow control
+[   13.073712] __wmi_control_rx: WMI UNIFIED SERVICE READY event
+[   13.084026] R0: wlan: [4:F :WDA] WMA <-- WMI_SERVICE_READY_EVENTID
+[   13.089171] R0: wlan: [4:E :WDA] wma_rx_service_ready_event: Firmware build version : 00000058
+[   13.114038] R0: wlan: [4:E :WDA] wma_rx_service_ready_event: Board version: 0.26014008
+[   13.120947] R0: wlan: [4:F :WDA] WMA --> WMI_INIT_CMDID
+[   13.147266] __wmi_control_rx:  WMI UNIFIED READY event
+[   13.151382] R0: wlan: [4:F :WDA] WMA <-- WMI_READY_EVENTID
+[   13.165547] R0: wlan: [635:E :WDA] Invalid wda_cli_set pdev command/Not yet implemented 0x4d
+[   13.172978] R0: wlan: [635:E :WDA] Invalid wda_cli_set pdev command/Not yet implemented 0x88
+[   13.182379] __wmi_control_rx : event handler is not registered: event id 0x1d019
+[   13.215655] R0: wlan: [616:E :WDA] MCC TX Pause Event Handler register
+[   13.221155] R0: wlan: [616:E :WDA] Target does not support cesium network
+[   13.234556] cfg80211: Calling CRDA for country: US
+[   13.238725] R0: wlan: [635:E :WDA] Invalid wda_cli_set pdev command/Not yet implemented 0x23
+[   13.254681] R0: wlan: [4:E :WDA] regdmn_set_dfs_region: dfs_region: 1
+[   13.280487] cfg80211: Regulatory domain changed to country: US
+[   13.286834] target uses HTT version 3.54; host uses 3.28
+[   13.291109] *** Warning: host/target HTT versions are different, though compatible!
+[   13.300799] R0: wlan: [635:E :WDA] wma_unified_vdev_create_send: ID = 0 VAP Addr = f4:63:49:eb:81:64
+[   13.315072] R0: wlan: [635:E :WDA] invalid rate code, ignore.
+[   13.320231] cfg80211:  DFS Master region: FCC
+[   13.326141] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[   13.344076] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.351049] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 3000 mBm), (N/A)
+[   13.384041] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2400 mBm), (0 s)
+[   13.392489] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2400 mBm), (0 s)
+[   13.414075] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.421051] cfg80211:   (5842000 KHz - 5863000 KHz @ 5000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.444073] cfg80211:   (5850000 KHz - 5870000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.462790] cfg80211:   (5860000 KHz - 5880000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.484165] cfg80211:   (5865000 KHz - 5885000 KHz @ 20000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.491141] cfg80211:   (5870000 KHz - 5890000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.514120] cfg80211:   (5880000 KHz - 5900000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.521090] cfg80211:   (5890000 KHz - 5910000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.544022] cfg80211:   (5895000 KHz - 5915000 KHz @ 20000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.550991] cfg80211:   (5900000 KHz - 5920000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.574037] cfg80211:   (5910000 KHz - 5930000 KHz @ 10000 KHz), (N/A, 3000 mBm), (N/A)
+[   13.581009] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+[   13.605996] R0: wlan: [635:E :WDA] Invalid wda_cli_set pdev command/Not yet implemented 0x34
+[   13.615719] Host SW:4.0.11.205G, FW:0.0.0.88, HW:QCA93x7_REV1_1
+[   13.637844] ol_pktlog_init: pktlogmod_init successfull
+[   13.664199] ath_hif_sdio: HIF (Atheros/multi-bss)
+[   13.667890] wlan: driver loaded in 2375636
+[   13.726980] insmod (616) used greatest stack depth: 4256 bytes left
+[   13.743595] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   13.798171] QCMAP:Start Hostapd
+[   14.054170] R0: wlan: [661:E :VOS] vos_get_context: pVosContext != gpVosContext
+[   14.060590] R0: wlan: [635:E :WDA] wma_unified_vdev_create_send: ID = 0 VAP Addr = f4:63:49:eb:81:64
+[   14.071342] R0: wlan: [635:E :WDA] invalid rate code, ignore.
+[   14.620064] R0: wlan: [635:E :WDA] wma_create_peer: Created peer with peer_addr f4:63:49:eb:81:64 vdev_id 0, peer_count - 1
+[   14.633436] R0: wlan: [635:E :WDA] BSS chan width: quarterrate_flag: 0, halfrate_flag: 0
+[   14.700805] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   14.731759] R0: wlan: [635:F :WDA] BSS Key setup with vdev_mac f4:63:49:eb:81:64
+[   14.731759]
+[   14.745995] R0: wlan: [635:F :WDA] BSS Key setup with vdev_mac f4:63:49:eb:81:64
+[   14.745995]
+[   14.780961] QCMAP: Wlan0 Hostapd Start Success
+[   14.861992] device wlan0 entered promiscuous mode
+[   14.875129] bridge0: port 3(wlan0) entered forwarding state
+[   14.879705] bridge0: port 3(wlan0) entered forwarding state
+[   14.992884] QCMAP:WLAN Enabled
+[   15.018336] QCMAP:Enable mobileap
+[QCMAP_CM] qcmap_cm_enable()
+[   15.086521] pil-q6v5-mss 4080000.qcom,mss: modem: Brought out of reset
+[   15.154427] pil-q6v5-mss 4080000.qcom,mss: Subsystem error monitoring/handling services are up
+[   15.162068] pil-q6v5-mss 4080000.qcom,mss: modem: Power/Clock ready interrupt received
+[   15.171099] PSM: Modem Loaded
+[   15.199351] diag: In diag_send_feature_mask_update, control channel is not open, p: 0, c0ab47fc
+Starting qmuxd: done
+Starting thermal-engine: done
+Starting netmgrd: done
+[   15.755146] msm_thermal:set_enabled enabled = 0
+Starting GUI manager: done
+[   15.968606] QCMAP:USB Client IP Addr 192.168.0.151
+debug level = 2
+[   15.992468] nf_conntrack: automatic helper assignment is deprecated and it will be removed soon. Use the iptables CT target to attach helpers instead.
+Starting Lighttpd Web Server: [GuiManager] Handle = 7f561008
+[GuiManager] Get hardware version RT410
+[   16.218883] PSM: DMS Ind register  - result: 0, error: 0
+[   16.275751] PSM: Oprt mode event report req qmi response - result: 0, error: 0
+Get HW version
+[   16.411920] PSM: result - 0 error - 0
+[   16.470563] PSM: Modem oprt mode - 0
+[   16.533569] PSM: backup_nv_path /data/psm/psm_nv_backup.txt
+hw_version version=P1
+[   16.589662] PSM: Log and QMI Init completed
+[GuiManager] get_brand : TMOBILE
+[GuiManager] LCD searching time out 60
+[GuiManager] LCD turnoff_time type=0
+[GuiManager] Language set [en]
+[   16.625192] PSM: Supported: 0
+[GuiManager] Led ON
+[   16.630439] PSM: Core server init completed
+LED_BLINK on=1000 ms, off=3000 ms   16.708646] PSM: Client and event thread created
+
+[GuiManager] Send banner[T-Mobile]
+[GuiManager] send_button_cfg(): button_cfg is 1
+
+[GuiManager] Get Display Settings Info 1
+[GuiManager] Battery Level[5], State[0x00]
+[GuiManager] guimgr_check_status(): please wait screen remain (50 sec)
+[GuiManager] Timer start success
+[GuiManager] gui manager: start
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_event_report(): carrier TMOBILE
+[   16.798215] sps:BAM 0x04044000 is registered.
+[   16.801607] sps:BAM 0x04044000 (va:0xd19c0000) enabled: ver:0x27, number of pipes:6
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] qcmap_cm_enable() qcmap_cm_cb.usage_data 918407667
+[   17.102513] qcmap_cm_get_basic_info
+[   17.153510] QCMAP: CARD STATUS - UIM STATE READY
+self-signing certificates already exist for webserver: Starting eMBMs_TunnelingModule: [   17.222262] eMBMs Tunneling Module:start
+done
+Starting qmi_ip: done
+Starting subsystem_ramdump: done
+Starting wlan_services... start
+Setting restart level: system
+done
+microwin data directory exist
+Starting mwin: kernel.msgmax = 65536
+done
+Starting miscellaneous daemons: [GuiManager] guimgr_check_status(): please wait screen remain (49 sec)
+Starting atreset: done
+[   17.831591] Starting qti_ppp: QTI_PPP:start
+done
+Completed starting miscellaneous daemonsUser defined signal 1
+
+[   18.229872] UNIFIED /var/tmp/qcmap_pdc_state not found -- 1
+redirect_io() => /dev/console
+[fota_app] waitBootingFinished() sleep until booting is finished(72s).
+Starting powerconfig for mdm9607: [   18.360664] QCMAP:Enable mobileap done
+
+mdm 202107151526 mdm9607 /dev/ttyHSL0
+
+mdm9607 login: [   18.603774] mbimd: Proc start
+[   18.653723] mbim_open: Open mbim driver
+[   18.671456] mbim_open: Lock mbim_dev->open_excl for open
+[   18.684656] mbim_open: USB cable not connected
+[   18.700248] mbim_open: Exit, mbim file opened
+[QCMAP_CM] /usr/bin/fti_nat_conf_v6.sh init
+[GuiManager] Online
+[GuiManager] guimgr_check_status(): send message SW_UPDATE_REQ_EVENT with 0
+
+[GuiManager] guimgr_check_status(): minimal time showing please wait screen (2 sec)
+[QCMAP_CM] /usr/bin/fti_nat_conf_v6.sh fw_on
+[QCMAP_CM] node wl doesn't exist.
+[QCMAP_CM] /usr/bin/fti_nat_conf_v6.sh wl_off
+[QCMAP_CM] /usr/bin/fti_nat_conf_v4.sh tod_init
+[   19.109924] QCMAP:Init Complete
+[   19.153525] USB QCMAP NL IOCTL Snd GETNEIGH Succ
+[   19.261998] UNIFIED /var/tmp/qcmap_pdc_state not found -- 2
+[GuiManager] guimgr_check_status(): minimal time showing please wait screen (3 sec)
+[   19.779421] ld7032_ioctl: cmd [200/0xC8]
+[   19.782317] ld7032_display_on : Skiped LD7032 Display On
+[   19.793422] [MMI_GUI] MmiIoctlSetLCDOn-turn on lcd
+[GuiManager] Get Usage Show 0
+[GuiManager] Get Usage LimitNum 20
+[GuiManager] Get Usage Lim[   19.818530] [MMI_GUI] [GUI-EVT-OUT] msg send=67, 0
+itUnit 0
+[GuiManager] usage_expire_date 20241130(20241130)
+
+[   19.830283] [MMI_GUI] [GUI-EVT-IN] msg rcvd=37, 0
+[   19.892770] [MMI_GUI] [GUI-EVT-IN] msg rcvd=33, 0
+[   19.954288] [MMI_GUI] [GUI-EVT-IN] msg rcvd=10, 84
+[   20.016214] [MMI_GUI] [GUI-EVT-IN] msg rcvd=47, 1
+[   20.078119] [MMI_GUI] [GUI-EVT-IN] msg rcvd=49, 1
+[   20.140495] [MMI_GUI] [GUI-EVT-IN] msg rcvd=9, 5
+[   20.202793] [MMI_GUI] [GUI-EVT-IN] msg rcvd=0, 1
+[   20.271737] UNIFIED /var/tmp/qcmap_pdc_state not found -- 3
+[   20.365301] [MMI_GUI] [GUI-EVT-IN] msg rcvd=1, 0
+[   20.426565] [MMI_GUI] [GUI-EVT-IN] msg rcvd=3, 5
+[   20.487324] [MMI_GUI] [GUI-EVT-IN] msg rcvd=38, 0
+[   20.547845] [MMI_GUI] [GUI-EVT-IN] msg rcvd=11, 0
+[GuiManager] guimgr_check_status(): minimal time showing please wait screen (4 sec)
+[QCMAP_CM] TOD: rule Cnt 0, curTime 202059
+[QCMAP_CM] TOD_ALLOW (TOD Disbled)
+[QCMAP_CM] /usr/bin/fti_nat_conf_v4.sh tod_allow
+[   21.165396] UNIFIED - old : TMOBILE(0x0501060B) new : TMOBILE(0x0501060B)
+[   21.189201] UNIFIED config_desc : TMOBILE
+[QCMAP_CM] /usr/bin/fti_nat_conf_v6.sh tod_allow
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[GuiManager] GUIMGR_TOD_ACCESS_EVENT 0
+
+Allow access web interface
+copy_htdocs()
+[   21.330926] [MMI_GUI] [GUI-EVT-IN] msg rcvd=26, 0
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[QCMAP_CM] [WMS] qcmap_cm_wms_set_routes(): carrier TMOBILE
+[   21.416885] QCMAP: Modem in service NAS indication received
+[   21.462996] QCMAP:bringup v4
+[GuiManager] No Service
+[GuiManager] guimgr_check_status(): minimal time showing please wait screen (5 sec)
+[   21.767701] [MMI_GUI] [GUI-EVT-IN] msg rcvd=3, 0
+[   21.841035] [MMI_GUI] [GUI-EVT-IN] msg rcvd=1, 4
+[   22.137389] QCMAP:bringup v6
+[   22.176406] QCMAP: Modem in service NAS indication received
+[QCMAP_CM] set_tzdata(): set timezone file as GMT+5
+[QCMAP_CM] sysfs_set_local_time(): 1731097260
+[   22.265724] **smart-charging: System time is set 2024-11-09 01:21:00 to 2024-11-08 20:21:00, Raw[1731097260]
+copy_htdocs() generic
+copy_htdocs() cgi-bin
+mv: can't rename '/var/www/htdocs': No such file or directory
+[GuiManager] guimgr_check_status(): minimal time showing please wait screen (6 sec)
+[   23.202830] QCMAP:WAN connected v4
+[QCMAP_CM] QCMAP_CM_EVENT_WAN_IPv6_CONNECTED
+[QCMAP_CM] ipv6 addr : 2607:fb91:2114:549f:34f6:cf18:aea0:b41a
+[QCMAP_CM] ipv6 dns1 : fd00:976a::9
+[QCMAP_CM] ipv6 dns2 : fd00:976a::10
+[   23.528265] device rmnet_data0 entered promiscuous mode
+[   23.537358] device bridge0 entered promiscuous mode
+[   23.610010] QCMAP:Start DHCP server
+[GuiManager] Technology LTE
+[GuiManager] send_disp_please_wait
+[   23.785000] [MMI_GUI] [GUI-EVT-IN] msg rcvd=3, 5
+[   23.791712] QCMAP:DHCP server started
+[   23.801600] QCMAP:DHCPV6 DNS server started
+[   23.846964] [MMI_GUI] [GUI-EVT-IN] msg rcvd=1, 3
+[   23.892814] QCMAP:WAN connected v6
+[   23.913688] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+[   23.935383] NOHZ: local_softirq_pending 08
+[   23.938626] NOHZ: local_softirq_pending 08
+[   23.967312] NOHZ: local_softirq_pending 08
+[   23.976733] [MMI_GUI] [GUI-EVT-IN] msg rcvd=50, 0
+[   23.998389] NOHZ: local_softirq_pending 08
+[   24.002264] NOHZ: local_softirq_pending 08
+[   24.052367] NOHZ: local_softirq_pending 08
+[   24.065331] NOHZ: local_softirq_pending 08
+[   24.084331] NOHZ: local_softirq_pending 08
+[   24.087742] NOHZ: local_softirq_pending 08
+[   24.092641] NOHZ: local_softirq_pending 08
+[   24.614030] bridge0: port 1(rndis0) entered forwarding state
+[   24.761321] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[   29.816033] Starting QCMAP_Web_CLIENT: done
+Starting pdc daemon: done
+start-stop-daemon --start -x /usr/sbin/lighttpd -- -f /data/lighttpd.conf
+[   29.894064] bridge0: port 3(wlan0) entered forwarding state
+[   30.752077] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+[   32.425371] **smart-charging: Charger will be activated. Execute the In-use time timer.
+[   32.432822] **smart-charging: changed:: state [Unknown] to [Battery Full], chg type [Unknown] to [USB], limited 0x0 to 0x1
+[   32.462357] **smart-charging: Set the charge current to USB Fast Charging Mode, CC 500mA
+[   32.733473] GUIMGR:QCMAP_StaInterface wlan0 WAKEUP
+[   32.763045] QCMAP STA Interface: DEV_WAKEUP
+[GuiManager] QCMAP_StaInterface wlan0 WAKEUP -- battery state check
+[GuiManager] Battery Level[6], State[0x20]
+[   32.781157] QCMAP:Receive DEV_WAKEUP
+[   32.798020] QCMAP:StopSleepTimer
+[   32.808010] QCMAP:qcmap_cm_charger_connected true
+[   32.827347] [MMI_GUI] [GUI-EVT-IN] msg rcvd=9, 38
+[   34.921965] QCMAP:Enable mobileap
+[QCMAP_CM] qcmap_cm_enable()
+[   34.933720] QCMAP:Enable mobileap done
+[   35.775975] [MMI_GUI] [GUI-EVT-IN] msg rcvd=3, 4
+he[   39.775860] [MMI_GUI] [GUI-EVT-IN] msg rcvd=3, 5
+lp
+Password:
+[   42.520298] **smart-charging: changed:: state [Battery Full] to [Charging], chg type [USB] to [USB], limited 0x1 to 0x1
+[   42.531950] **smart-charging: Set the charge current to USB Fast Charging Mode, CC 500mA
+[   42.545641] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[   42.567421] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[   42.585410] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[GuiManager] Battery Level[5], State[0x20]
+[   42.768116] [MMI_GUI] [GUI-EVT-IN] msg rcvd=9, 37
+[   43.746185] [MMI_GUI] [GUI-EVT-IN] msg rcvd=3, 4
+
+Login incorrect
+mdm9607 login: [   48.744933] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[   51.780431] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+root
+Password:
+Login incorrect
+mdm9607 login: [   64.744235] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[   70.751945] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+
+log_init()
+mv /data/logs/rmagt /var/log/rmagt
+f_log_size = 8438
+[rmagt_app] main()
+
+
+[rmagt_app] main() =============================================================
+[rmagt_app] main() [rmagt_app] start
+[rmagt_app] download start
+[rmagt_app] netMonInit()
+cfg nexttry 20200101 000000
+[rmagt_app] netMon()
+[rmagt_app] StatURL: "https://mdmapi.pintracview.com/devices/update/settings"
+[rmagt_app] MdmVersion Not exists. Default MdmVersion is used instead.
+[rmagt_app] carrier tmobile, imei 351182074879447, cfg_ver 202004021200
+[rmagt_app] Nothing to response to server.
+[rmagt_app] report Stat to server.
+[rmagt_app] wget --post-file=/var/tmp/rmagt/update/stat.req.json --header=Content-Type:application/json https://mdmapi.pintracview.com/devices/update/settings -O /var/tmp/rmagt/update/stat.resp.json -a /var/tmp/rmagt/update/wget.log
+[rmagt_app] check new version   72.413288] wget (1730) used greatest stack depth: 3800 bytes left
+
+[rmagt_app] runCheckNewVersion()
+[rmagt_app] https://t9datafiles.s3.us-east-2.amazonaws.com/rt410/ent/351182074879447/latest_version_file
+[rmagt_app] wget -T 10 -O /var/tmp/rmagt/update/cfg_check_url "https://t9datafiles.s3.us-east-2.amazonaws.com/rt410/ent/351182074879447/latest_version_file" -a /var/tmp/rmagt/update/wget.log
+[   72.705671] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[   72.829331] [MMI_GUI] Calls turn_off_lcd MSG_TIMER_GOTO_LCD_OFF expired. state=5 g_force=0
+[   72.843026] [MMI_GUI] turn_off_lcd. state=5 g_force_always_turn_on_lcd=0
+[   72.849451] ld7032_ioctl: cmd [201/0xC9]
+[   72.860147] [MMI_GUI] MmiIoctlSetLCDOff-turn off lcd
+[rmagt_app] runCheckNewVersion() error
+[rmagt_app] network error.
+[rmagt_app] set next_try 86400 seconds later
+[   73.781346] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[   76.763101] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+[   82.742826] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[   85.733730] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+
+log_init()
+mv /data/logs/fota /var/log/fota
+f_log_size = 262
+[fota_app] main()
+
+
+[fota_app] main() =============================================================
+[fota_app] main() [fota_app] start
+[fota_app] fota start
+[fota_app] fotaMonInit()
+[fota_app] midnightMon() [fota] midnightMon() - start
+[fota_app] fotaMon()
+[fota_app] check new version.
+[fota_app] runCheckNewVersion()
+[fota_app] wget -t 3 -T 10 -O /var/www/tmp/update_check_url "https://fota.pintracview.com/fota/RT410/check_update_delta.php?carrier=tmobile&rev=2669&imei=351182074879447&key=947010c2e87b22aa9285b5f3e77e733683b9055ae38b3043a1da8ef7337b5ed6" -a /var/www/log/wget.log
+[fota_app] nothing to update.
+[fota_app] set next_try 172800 seconds later
+[   94.755150] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+
+Login timed out after 60 seconds
+mdm 202107151526 mdm9607 /dev/ttyHSL0
+
+mdm9607 login: [  110.777382] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[  113.760507] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+[  122.735238] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[  131.752589] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+[  134.782094] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[  137.763222] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+[  142.976561] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:5 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[  142.997040] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+[  149.761417] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+[  153.045976] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+
+mdm 202107151526 mdm9607 /dev/ttyHSL0
+
+mdm9607 login: root
+Password: [  159.740139] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+
+Login incorrect
+mdm9607 login: root
+Password:
+[  171.735240] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+Login incorrect
+mdm9607 login: [  173.103020] i2c-msm-v2 78b9000.i2c: NACK: slave not responding, ensure its powered: msgs(n:2 cur:0 tx) bc(rx:1 tx:1) mode:FIFO slv_addr:0x69 MSTR_STS:0x0d1300c8 OPER:0x00000010
+
+mdm9607 login: [  174.765944] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 4
+toor
+Password:
+Login incorrect
+
+mdm 202107151526 mdm9607 /dev/ttyHSL0
+
+mdm9607 login: [  180.763742] [MMI_GUI] [GUI-EVT-IN] msg rcvd=32, 3
+
+mdm 202107151526 mdm9607 /dev/ttyHSL0
+
+mdm9607 login: rootPassword:
